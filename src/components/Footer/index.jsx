@@ -7,18 +7,19 @@ function Footer(){
         <>
         <div className='footer'>
             <h2>Contato</h2>
+            <span>Venha bater um papo. Estou sempre a disposição.</span>
             <ul className='contatos_container'>
                 <li className='contato_card'>
-                    <span><FaEnvelopeOpenText/>  Email@outlook.com.br</span>
+                    <span><FaEnvelopeOpenText/> Email@outlook.com.br</span>
                 </li>
                 <li className='contato_card'>
-                    <span><FaFacebook/>  Nome Facebook</span>
+                    <span><FaFacebook/> Nome Facebook</span>
                 </li>
                 <li className='contato_card'>
-                    <span><FaPhone/>  +55 41 3333-3333</span>
+                    <span><FaPhone/> +55 41 3333-3333</span>
                 </li>
                 <li className='contato_card'>
-                    <span><FaHouseUser/>  Rua das ruas, Nº XXXX - Bairro dos Bairros - Cidade, Estado - Brasil</span>
+                    <span><FaHouseUser/> Rua das ruas, Nº XXXX - Bairro dos Bairros - Cidade, Estado - Brasil</span>
                 </li>
             </ul>
         </div>

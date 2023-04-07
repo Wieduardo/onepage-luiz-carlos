@@ -9,6 +9,8 @@ main {
     gap: 20px;
     padding: 20px;
     margin-top: 80px;
+    font-family: Inter, sans-serif;
+    font-weight: 200;
 }
 .bola{
     height: 120px;
