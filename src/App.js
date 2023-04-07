@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
 import Servicos from './components/Servicos';
@@ -10,7 +11,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <Servicos/>
-      <h1>Teste</h1>
+      <Footer/>
     </>);
 }
 

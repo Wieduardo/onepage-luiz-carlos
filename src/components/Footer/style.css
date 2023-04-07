@@ -1,0 +1,25 @@
+.footer{
+    min-height: 70vh;
+    max-width: 100vw;
+    background-color: rgb(180, 180, 180);
+}
+.footer > h2 {
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.contatos_container{
+    min-height: 20vh;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+.contato_card{
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
