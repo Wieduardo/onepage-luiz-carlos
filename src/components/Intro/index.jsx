@@ -10,7 +10,7 @@ function Intro(){
                 Prestar consultoria e informações gerenciais: Analisar balancete contábil; 
                 fazer relatórios gerenciais econômicos e financeiros; calcular índices econômicos e financeiros;
                  elaborar orçamento; acompanhar a execução do orçamento; analisar os relatórios; assessorar a gestão
-                 Instituiciorial.
+                 Instituicional.
             </text>
         </main>
         </>
