@@ -1,6 +1,6 @@
 main {
     min-height: 10vh;
-    background-color: purple ;
+    background-color:lightskyblue ;
     max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@ main {
     padding: 20px;
     margin-top: 80px;
 }
-img{
+.bola{
     height: 120px;
     width: 120px;
     border-radius: 50%;

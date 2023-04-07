@@ -4,7 +4,7 @@ function Intro(){
     return(
         <>
         <main>
-            <img src='https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg' alt='contador'/>
+            <img className='bola' src='https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg' alt='contador'/>
             <text>
                 Meu nome é Luiz Carlos Santana. Sou contador. Minha função é
                 Prestar consultoria e informações gerenciais: Analisar balancete contábil; 

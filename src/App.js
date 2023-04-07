@@ -1,6 +1,7 @@
 import './App.css';
 import Intro from './components/Intro';
 import Navbar from './components/Navbar';
+import Servicos from './components/Servicos';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Intro/>
+      <Servicos/>
       <h1>Teste</h1>
     </>);
 }
