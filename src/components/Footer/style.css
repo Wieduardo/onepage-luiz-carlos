@@ -1,7 +1,9 @@
 .footer{
     min-height: 75vh;
     max-width: 100vw;
-    background-color: rgb(231, 231, 231);
+    background-image: url(https://wallpapercave.com/wp/Te4aJte.jpg);
+    background-attachment: fixed;
+    color: white;
 }
 .footer > h2 {
     margin-left: 20px;
@@ -13,6 +15,7 @@
 .contatos_container{
     min-height: 25vh;
     max-width: 100vw;
+    background-color: rgb(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -26,5 +29,5 @@
     font-family: sans-serif;
     font-weight: 100;
     font-size: 18px;
-    color:dimgrey;
+    color:white;
 }
