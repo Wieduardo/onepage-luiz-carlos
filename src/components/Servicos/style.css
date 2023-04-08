@@ -11,7 +11,7 @@
     flex-direction: row;
     padding:0 19px;
     gap: 25px;
-    height: 35vh;
+    height: 40vh;
     min-height: 10vh;
     overflow-y: auto;
 }
@@ -19,7 +19,7 @@
     background-color: rgb(240, 240, 240);
     border-radius: 10%;
     margin-top: 10px;
-    height: 30vh;
+    height: 35vh;
     min-width: 250px;
     display: flex;
     flex-direction: column;
