@@ -1,9 +1,21 @@
 .footer{
     min-height: 75vh;
     max-width: 100vw;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.footer::before{
+    content: '';
     background-image: url(https://wallpapercave.com/wp/Te4aJte.jpg);
     background-attachment: fixed;
-    color: white;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
 }
 .footer > h2 {
     margin-left: 20px;
