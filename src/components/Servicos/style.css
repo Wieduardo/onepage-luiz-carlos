@@ -46,3 +46,14 @@
     border-radius: 50%;
     margin-top: 20px;
 }
+@media (min-width: 800px){
+    .container{
+        min-height: 60vh;
+    }
+    .servicos_container{
+        min-height: 50vh;
+    }
+    .servico_card{
+        min-height: 40vh;
+    }
+}

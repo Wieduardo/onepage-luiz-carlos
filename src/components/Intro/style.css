@@ -23,4 +23,23 @@ h1 {
 text{
     font-size: 1rem;
     max-width: 90vw;
+    font-family: sans-serif;
+}
+
+@media (min-width: 800px){
+    main{
+        min-height: 80vh;
+        flex-direction:row-reverse;
+        flex-wrap: nowrap;
+        align-items:center;
+        justify-content:space-around ;
+    }
+    text{
+        font-size: 1.5rem;
+        max-width: 35vw;
+    }
+    .bola{
+        width: 350px;
+        height: 350px;
+    }
 }
