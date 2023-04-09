@@ -6,11 +6,10 @@ function Intro(){
         <main>
             <img className='bola' src='https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg' alt='contador'/>
             <text>
-                Meu nome é Luiz Carlos Santana. Sou contador. Minha função é
-                Prestar consultoria e informações gerenciais: Analisar balancete contábil; 
-                fazer relatórios gerenciais econômicos e financeiros; calcular índices econômicos e financeiros;
-                 elaborar orçamento; acompanhar a execução do orçamento; analisar os relatórios; assessorar a gestão
-                 Instituicional.
+            Contador, Economista. Administrador de Empresas, com 40 anos de experiência.
+            Oferece serviços  a MEIs, Micro Empresas e Empresas de Pequeno Porte tudo via teleprocessamento.
+            Sem burocracia, tudo via teleprocessamento:
+            Contabilidade, Fiscal, Registro de Funcionários e folha de pagamento.
             </text>
         </main>
         </>
