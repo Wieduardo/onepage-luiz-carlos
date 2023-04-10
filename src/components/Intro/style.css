@@ -24,6 +24,7 @@ text{
     font-size: 1rem;
     max-width: 90vw;
     font-family: sans-serif;
+    color: rgb(27, 27, 27);
 }
 
 @media (min-width: 800px){
