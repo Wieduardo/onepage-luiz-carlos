@@ -6,7 +6,7 @@
     margin-left: 20px;
 }
 .servicos_container{
-    width: 90vw;
+    width: 85vw;
     display: flex;
     flex-direction: row;
     padding:0 19px;
@@ -33,6 +33,7 @@
     justify-items: center;
     justify-content: center;
     margin: 10px;
+    text-align: center;
 }
 .servico_content > span{
     padding: 0 20px;
@@ -53,6 +54,7 @@
     }
     .servicos_container{
         min-height: 50vh;
+        min-width: 95vw;
     }
     .servico_card{
         min-height: 40vh;

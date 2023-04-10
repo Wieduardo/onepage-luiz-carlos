@@ -4,6 +4,8 @@
     background-color: black;
     color: white;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .footer::before{
     content: '';
@@ -22,7 +24,7 @@
     padding-top: 20px;
 }
 .footer span {
-    margin-left: 20px;
+    margin: 10px 20px;
 }
 .contatos_container{
     min-height: 25vh;

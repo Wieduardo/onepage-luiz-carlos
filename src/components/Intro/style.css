@@ -10,7 +10,7 @@ main {
     padding: 20px;
     margin-top: 80px;
     font-family: Inter, sans-serif;
-    font-weight: 200;
+    justify-content: center;
 }
 .bola{
     height: 120px;
@@ -23,6 +23,8 @@ h1 {
 text{
     font-size: 1rem;
     max-width: 90vw;
+    text-align: center;
+    font-weight: 900;
     font-family: sans-serif;
     color: rgb(27, 27, 27);
 }
@@ -36,8 +38,9 @@ text{
         justify-content:space-around ;
     }
     text{
-        font-size: 1.5rem;
+        font-size: 2rem;
         max-width: 35vw;
+        font-weight: 900;
     }
     .bola{
         width: 350px;

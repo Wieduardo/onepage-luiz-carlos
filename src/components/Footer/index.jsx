@@ -6,8 +6,9 @@ function Footer(){
     return(
         <>
         <div className='footer'>
-            <h2>Contato</h2>
-            <span>Venha bater um papo. Estou sempre a disposição.</span>
+            <h2>Horário de Atendimento</h2>
+            <span>Seg á Sexta: 8:00 às 22:00</span>
+            <span>Sábado: 9:30 às 17:00</span>
             <ul className='contatos_container'>
                 <li className='contato_card'>
                     <span><FaEnvelopeOpenText/> salebrasil@hotmail.com</span>
