@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 function Navbar(){
 
-const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
+const [isDesktop, setDesktop] = useState(window.innerWidth > 800);
 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 800);
