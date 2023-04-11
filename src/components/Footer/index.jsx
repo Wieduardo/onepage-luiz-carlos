@@ -11,7 +11,7 @@ function Footer(){
             <span>Sábado: 9:30 às 17:00</span>
             <ul className='contatos_container'>
                 <li className='contato_card'>
-                    <span><FaEnvelopeOpenText/> salebrasil@hotmail.com</span>
+                    <span><FaEnvelopeOpenText/> santana_lk@hotmail.com</span>
                 </li>
                 <li className='contato_card'>
                     <span><FaWhatsapp/> +55 41 99699-2722</span>

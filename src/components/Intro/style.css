@@ -12,6 +12,21 @@ main {
     font-family: Inter, sans-serif;
     justify-content: center;
 }
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.meis{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.descri_span{
+    text-align: center;
+    font-size: 12px;
+}
 .bola{
     height: 120px;
     width: 120px;
@@ -41,6 +56,9 @@ text{
         font-size: 2rem;
         max-width: 35vw;
         font-weight: 900;
+    }
+    .descri_span{
+        max-width: 40vw;
     }
     .bola{
         width: 350px;
