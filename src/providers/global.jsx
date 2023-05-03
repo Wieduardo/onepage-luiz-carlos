@@ -23,20 +23,32 @@ export const GlobalProvider = ({children}) =>{
     const servicos=[
       {
           name:"Assessoria MEIs" ,
-          descri:"Criação da conta Gov até o acesso ao aplicativo gov.br; Alteração  e/ou Baixa de CNPJ MEI; cancele seu CNPJ MEI para evitar cobranças desnecessárias ainda que tenha dívidas.",
+          descri:"- Criação da conta Gov até o acesso ao aplicativo gov.br.",
+          descri2:"- Alteração e/ou Baixa de CNPJ MEI.",
+          descri3:"- Regularize ou cancele seu CNPJ MEI para evitar cobranças desnecessárias ainda que tenha dívidas.",
           negri: "Seu CNPJ MEI em 24h.",
           img:"https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg"
       },
       {
           name:"Abertura de Empresa" ,
-          descri:"Contabilidade Fiscal, Registro de Funcionários; Folha de Pagamento e Encerramento de Empresa.",
+          descri:"- Contabilidade Fiscal.",
+          descri2:"- Registro de Funcionários.",
+          descri3:"- Folha de Pagamento.",
+          descri4:"- Encerramento de Empresa.",
           img:Images.imagem2
       },
       {
           name:"Gestão Administrativa" ,
-          descri:"Terceirização de área administrativa; Planejamento estratégico, montagem e acompanhamento mensal.",
+          descri:"- Terceirização de área administrativa.",
+          descri2:"- Planejamento estratégico, montagem e acompanhamento mensal.",
           img:Images.imagem3
-      }
+      },
+      {
+        name:"Automação" ,
+        descri:"- Sistemas de automação e frente de caixa.",
+        descri2:"- Segmentos atendidos: Comércios, Restaurantes, Supermercados, Automotivo, Reciclagem, Varejistas entre outros.",
+        img:Images.imagem4
+    }
   ]
 
     //Transforma o número de ceular em legível

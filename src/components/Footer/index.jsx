@@ -12,8 +12,8 @@ function Footer(){
         <>
         <FooterContainer>
             <h2>Horário de Atendimento</h2>
-            <span>Seg á Sexta: 8:00 às 22:00</span>
-            <span>Sábado: 9:30 às 17:00</span>
+            <span>Seg à Sexta: 8:00h às 22:00h</span>
+            <span>Sábado: 9:30h às 17:00h</span>
             <ContatoContainer>
                 <ContatoCard>
                     <span><FaEnvelopeOpenText/> {userData.email}</span>

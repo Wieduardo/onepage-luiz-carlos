@@ -17,6 +17,9 @@ function Servicos(){
                     <ServicoCardContent>
                         <h3>{servico.name}</h3>
                         <text>{servico.descri}</text>
+                        {servico.descri2 ? (<text>{servico.descri2}</text>):("")}
+                        {servico.descri3 ? (<text>{servico.descri3}</text>):("")}
+                        {servico.descri4 ? (<text>{servico.descri4}</text>):("")}
                         <span>{servico.negri}</span>
                     </ServicoCardContent>
                 </ServicoCard>))

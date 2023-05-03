@@ -23,6 +23,7 @@ export const ServicosUl = styled.ul`
     width: 85vw;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     padding:0 19px;
     gap: 25px;
     height: 70vh;
@@ -32,8 +33,6 @@ export const ServicosUl = styled.ul`
 
     @media(min-width: 800px){
         min-height: 60vh;
-        flex-direction: row;
-        justify-content: center;
     }
 `
 
@@ -60,7 +59,8 @@ export const ServicoCardContent = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    text-align: justify;
+    gap: 5px;
+    text-align: center;
     
     &>text{
         padding: 0 20px;
