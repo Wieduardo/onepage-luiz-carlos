@@ -46,7 +46,7 @@ export const GlobalProvider = ({children}) =>{
       {
         name:"Automação" ,
         descri:"- Sistemas de automação e frente de caixa.",
-        descri2:"- Segmentos atendidos: Comércios, Restaurantes, Supermercados, Automotivo, Reciclagem, Varejistas entre outros.",
+        descri2:"- Segmentos atendidos: Comércios, Restaurantes, Supermercados, Automotivo, Reciclagem, Varejistas, entre outros.",
         img:Images.imagem4
     }
   ]
