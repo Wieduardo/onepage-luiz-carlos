@@ -1,41 +1,28 @@
-import './style.css';
+import { useContext } from 'react';
+import { GlobalContext } from '../../providers/global';
+import { BolaServico, ServicoCard, ServicoCardContent, ServicosContainer, ServicosUl } from './style';
 
 function Servicos(){
 
-    const servicos=[
-        {
-            name:"Assessoria MEIs" ,
-            descri:"Criação da conta Gov até o acesso ao aplicativo gov.br; Alteração  e/ou Baixa de CNPJ MEI, cancele seu CNPJ MEI para evitar cobranças desnecessárias ainda que tenha dívidas.",
-            img:"https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg"
-        },
-        {
-            name:"Abertura de Empresa" ,
-            descri:"Contabilidade Fiscal, Registro de Funcionários; Folha de Pagamento e Encerramento de Empresa.",
-            img:"https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg"
-        },
-        {
-            name:"Gestão Administrativa" ,
-            descri:"Terceirização dea área administrativa; Planejamento estratégico, montagem e acompanhamento mensal.",
-            img:"https://hscontabil.com.br/wp-content/uploads/2019/11/contador.jpg"
-        }
-    ]
+    const { servicos } = useContext(GlobalContext);
 
     return(
         <>
-        <div className='container'>
+        <ServicosContainer>
             <h2>Serviços</h2>
-            <div className='servicos_container'>
+            <ServicosUl>
             {servicos.map((servico, index) => (
-                <div key={index} className="servico_card">
-                    <img src={servico.img} alt="alterna" className='bola_servico'></img>
-                    <div className="servico_content">
+                <ServicoCard key={index}>
+                    <BolaServico src={servico.img} alt="alterna"/>
+                    <ServicoCardContent>
                         <h3>{servico.name}</h3>
-                        <span>{servico.descri}</span>
-                    </div>
-                </div>))
+                        <text>{servico.descri}</text>
+                        <span>{servico.negri}</span>
+                    </ServicoCardContent>
+                </ServicoCard>))
             }
-            </div>
-        </div>
+            </ServicosUl>
+        </ServicosContainer>
         </>
     )
 }

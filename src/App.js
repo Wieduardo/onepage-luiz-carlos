@@ -1,17 +1,14 @@
-import './App.css';
-import Footer from './components/Footer';
-import Intro from './components/Intro';
-import Navbar from './components/Navbar';
-import Servicos from './components/Servicos';
-
+import { GlobalProvider } from "./providers/global";
+import RoutesMain from "./routes";
+import Global from "./styles/global";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Intro/>
-      <Servicos/>
-      <Footer/>
+    <GlobalProvider>
+      <Global/>
+      <RoutesMain/>
+    </GlobalProvider>
     </>);
 }
 

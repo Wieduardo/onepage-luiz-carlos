@@ -1,22 +1,22 @@
-import './style.css';
+import { Bola, ContainerMain, ContainerMeis, ContentMain } from './style';
 
 function Intro(){
     return(
         <>
-        <main>
-            <img className='bola' src={require('../../imgs/logo.png')} alt='logo'/>
-            <div>
+        <ContainerMain>
+            <Bola src={require('../../imgs/imagem1.jpeg')} alt='logo'/>
+            <ContentMain>
                 <text>
                     Abertura de Empresa - Gestão Empresarial 
                 </text>
-                <div className='meis'>
+                <ContainerMeis>
                 <text>Assessoria MEIs </text>
-                    <span className='descri_span'>
+                    <span>
                         (MEI, você pode fazer tudo sozinho e de forma gratuita no site do governo, mas, se precisar de assessoria, posso te auxiliar.)
                     </span>
-                </div>
-            </div>
-        </main>
+                </ContainerMeis>
+            </ContentMain>
+        </ContainerMain>
         </>
     )
 }
