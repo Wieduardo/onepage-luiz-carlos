@@ -12,7 +12,7 @@ function Footer(){
         <>
         <FooterContainer>
             <h2>Horário de Atendimento</h2>
-            <span>Seg à Sexta: 8:00h às 22:00h</span>
+            <span>Seg à Sexta: 8:00h às 20:00h</span>
             <span>Sábado: 9:30h às 17:00h</span>
             <ContatoContainer>
                 <ContatoCard>

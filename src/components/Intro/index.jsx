@@ -11,9 +11,6 @@ function Intro(){
                 </text>
                 <ContainerMeis>
                 <text>Assessoria MEIs </text>
-                    <span>
-                        (MEI, você pode fazer tudo sozinho e de forma gratuita no site do governo, mas, se precisar de assessoria, posso te auxiliar.)
-                    </span>
                 </ContainerMeis>
             </ContentMain>
         </ContainerMain>
